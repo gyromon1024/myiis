@@ -1,10 +1,10 @@
 name 'myiis'
-maintainer 'The Authors'
+maintainer 'Todd F'
 maintainer_email 'you@example.com'
 license 'all_rights'
-description 'Installs/Configures myiis'
-long_description 'Installs/Configures myiis'
-version '0.1.0'
+description 'Installs/Configures IIS with a default page'
+long_description 'Installs/Configures IIS with a default page'
+version '0.1.1'
 
 # The `issues_url` points to the location where issues for this cookbook are
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when
@@ -17,3 +17,6 @@ version '0.1.0'
 # a Supermarket.
 #
 # source_url 'https://github.com/<insert_org_here>/myiis' if respond_to?(:source_url)
+#
+#Version 0.1.1:  Add default functionality, while allowing the recipe server.rb to
+# still be called directly.
